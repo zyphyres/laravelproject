@@ -1,0 +1,64 @@
+.save-btn {
+    font-size: 14px;
+    color: #fff;
+    background: #212529;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-content: center;
+}
+
+.loader-btn {
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: ani1 2s linear infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+.save-btn1 {                            
+    font-size: 14px;
+    color: #fff;
+    background: #212529;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-content: center;
+}
+
+.loader-btn1 {
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: ani1 2s linear infinite;
+}
+
+@keyframes ani2 {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
